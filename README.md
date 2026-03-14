@@ -12,6 +12,7 @@ ev-charging-station-sql-analysis
 │
 ├── 01_dataset
 │   └── ev_charging_station_data.zip
+
 │
 ├── 02_sql_queries
 │   ├── 01_data_cleaning.sql
@@ -20,9 +21,11 @@ ev-charging-station-sql-analysis
 │   ├── 04_peak_hour_analysis.sql
 │   ├── 05_weather_analysis.sql
 │   └── 06_station_stress_analysis.sql
+
 │
 ├── 03_insights
 │   └── key_insights.md
+
 │
 └── README.md
 
@@ -30,16 +33,26 @@ ev-charging-station-sql-analysis
 --------------------
 The dataset contains hourly operational records of EV charging stations.
 
-Key Attributes
+Key Attributes:
+
 Column                   -  Description
+
 station_id	             -  Unique station identifier
+
 city	                   -  Location of charging station
+
 charger_type 	          -  Type of charger installed
+
 ports_total	             -  Total charging ports
+
 ports_occupied	          -  Ports currently in use
+
 utilization_rate	       -  Station usage percentage
+
 estimated_wait_time_mins -  Average wait time
+
 weather_condition	       -  Weather  during charging
+
 local_event	             -  Nearby events impacting demand
 
 📦 Dataset Size: ~1.3 Million Records
