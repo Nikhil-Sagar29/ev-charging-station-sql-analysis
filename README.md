@@ -194,7 +194,7 @@ Tool	Purpose:
 Nikhil Sagar
 
 🎓 BBA Graduate
-📊 Aspiring Data Analyst
+📊 Data Analyst
 
 Skills:
 --------------
